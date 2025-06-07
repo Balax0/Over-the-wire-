@@ -1,0 +1,61 @@
+over the wire
+
+cat readme
+bandit0 - 1 = ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+cat < -
+bandit1 - 2 = 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+cat "spaces in this filename"
+bandit2 - 3 = MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+ls
+ls -al
+cat ...Hiding-From-You
+bandit3 - 4 =2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+ls
+ls -al
+file ./* (Wildcard op)
+cat < -file07
+bandit4 - 5 = 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+ls
+ls -al
+du -b -a | grep 1033  (du used for ,
+                       b flag for print all the hidden folders, files.)
+bandit5 - 6 = HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+ls
+ls -al
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+bandit6 - 7 = morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+ls
+cat data.txt
+grep "millionth"
+bandit7 - 8 = dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+
+ls
+cat data.txt
+sort data.txt | uniq -u (u flag is used to only grab the unique)
+bandit8 - 9 = 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+ls 
+cd data.txt
+strings data.txt | grep "=="
+bandit9 - 10 = FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+
+ls
+base64 data.txt
+base64 data.txt -d (d is decode flag)
+bandit10 - 11 = dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+
+
+
+
+
