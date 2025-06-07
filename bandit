@@ -54,8 +54,13 @@ base64 data.txt
 base64 data.txt -d (d is decode flag)
 bandit10 - 11 = dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
+ls
+cat data.txt
+(tr stands for translate used to decode)
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+bandit11 - 12 = 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
-
+-------07/06/2025--------- Intervel (bandit12 to login)
 
 
 
